@@ -1,0 +1,27 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACF,oBAAoB,CAAA,QAAC;EACrB,sBAAsB,CAAA,QAAC;EACvB,mBAAmB,CAAA,QAAC;EACpB,qBAAqB,CAAA,QAAC;EACtB,mBAAmB,CAAA,QAAC;EACpB,qBAAqB,CAAA,0BAAC;EACtB,kBAAkB,CAAA,QAAC;EACnB,oBAAoB,CAAA,0BAAC;EACrB,sBAAsB,CAAA,QAAC;CAC1B;;AGVD,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,wBAAwB;EAC1C,KAAK,EAAE,yBAAyB;EAChC,WAAW,EAAE,mBAAmB;EAChC,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,MAAM;CACzB;;AAED,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,KAAK,CAAC;EACF,eAAe,EAAE,IAAI;CACxB;;AAED,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AChCD,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,aAAa;CACtB;;AETD,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,MAAM;CACjB;;ACLD,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,mBAAmB;EAChC,KAAK,EAAE,0BAA0B;ELDjC,WAAW,EKEG,GAAG;ELDjB,SAAS,EKCU,IAAI;ELAvB,WAAW,EKAc,IAAI;ELC7B,cAAc,EAJc,MAAM;EKIlC,eAAe,EAAE,IAAI;CACxB;;ACLD,AAAA,QAAQ,CAAC;EACL,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CACvB;;AAED,AAAA,cAAc,CAAC;EACX,KAAK,EAAE,yBAAyB;EAChC,aAAa,EAAE,IAAI;ENNnB,WAAW,EMOG,GAAG;ENNjB,SAAS,EMMU,IAAI;ENLvB,WAAW,EMKc,IAAI;ENJ7B,cAAc,EMIiB,MAAM;EACrC,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,SAAS;CAC5B",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_vars.scss",
+        "../sass/utils/_placeholder.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/base/_common.scss",
+        "../sass/base/_hidden.scss",
+        "../sass/components/_btn.scss",
+        "../sass/components/_container.scss",
+        "../sass/components/_logo.scss",
+        "../sass/components/_section.scss",
+        "../sass/components/_social-list.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_hero.scss",
+        "../sass/layout/_section-choose.scss",
+        "../sass/layout/_section-courses.scss",
+        "../sass/layout/_section-video.scss",
+        "../sass/layout/_section-insta.scss",
+        "../sass/layout/_section-subscripe.scss",
+        "../sass/layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

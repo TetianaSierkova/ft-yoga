@@ -1,0 +1,33 @@
+body {
+    background-color: var(--primary-bgc-color);
+    color: var(--primary-text-color);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
