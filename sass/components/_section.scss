@@ -1,6 +1,10 @@
 .section {
     padding-top: 40px;
     padding-bottom: 40px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .section-title {
@@ -9,4 +13,8 @@
     @include font(400, 80px, 1.25, 0.06em);
     text-align: center;
     text-transform: uppercase;
-}
+
+    @media screen and (max-width: 1200px) {
+        @include font(400, 44px, 1.36, 0.06em);
+    }
+}  

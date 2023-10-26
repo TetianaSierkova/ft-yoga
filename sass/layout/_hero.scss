@@ -1,0 +1,70 @@
+.hero-section {
+    width: 1200px;
+    height: 870px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    background-image: url(/images/XMLID_1_.png);
+    background-repeat: no-repeat;
+    background-position-y: 69%;
+}
+
+.hero-section-box {
+    margin-right: -200px;
+    padding: 0;
+}
+
+.hero-section-title {
+    margin-top: 30px;
+    width: 690px; 
+    height: 465px;
+    @include font(400, 110px, 1.26);
+}
+
+.info-title-yoga{
+    width: 250px; 
+    height: 150px;
+    border: 1.55px;
+    border-radius: 26px;
+    //rotate: -7.69°;
+    padding: 16px;
+    color: var(--accent-text-color);
+    rotate: -7.69°;
+    background-color: var(--secondary-accent-color);
+}
+
+.hero-section-text {
+    margin-top: 120px;
+    @include font(400, 18px, 1.61, 0.02em);
+    color: var(--secondary-text-color);
+    width: 424px;  
+    height: 60px; 
+}
+
+.hero-section-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero-section-number {
+    display: block;
+    color: var(--primary-text-color);
+    @include font(400, 64px, 1.25, 0.02em);
+}
+
+.hero-section-item {
+    display: block;
+    margin-top: 5px;
+    color: var(--primary-text-color);
+    @include font(400, 20px, 1.45, 0.02em);
+}
+
+.hero-section-info-item {
+    margin-right: 80px;
+}
+
+.image-hero-section{
+    margin-top: 20px;
+    margin-right: 200px;
+}

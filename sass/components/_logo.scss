@@ -3,12 +3,26 @@
     color: var(--secondary-bgc-color);
     @include font(400, 36px, 1.25);
     text-decoration: none;
+    @media screen and (max-width: 1200px) {
+        @include font(700, 26px, 1.19);
+    }
+    border: 0.8px;
+    width: 400px;
 }
 
 .logo-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
 
-}
+    @media screen and (max-width: 768px) {
+        margin-right: 88px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
 
-.logo-footer {
-
+    @media screen and (max-width: 1200px) {
+        margin-right: 93px;
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
 }
