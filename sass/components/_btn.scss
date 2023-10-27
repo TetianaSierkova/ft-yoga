@@ -28,3 +28,17 @@
     width: 238px;
     height: 60px;
 }
+
+.section-choose-button {
+    margin-top: 85px;
+    margin-left: 30px;
+    box-shadow: none;
+    color: var(--secondary-accent-color);
+
+    &:hover,
+    &:focus {
+        background-color: inherit;
+        color: var(--secondary-bgc-color);
+        @include font(600, 18px, 1.61, 0.06em);
+    }
+}

@@ -12,7 +12,7 @@
   --secondary-icon-color: #FFFFFF;
 }
 
-.header-nav, .site-nav, .auth-container {
+.header-nav, .site-nav, .auth-container, .section-choose {
   display: flex;
   align-items: center;
 }
@@ -98,6 +98,22 @@ img {
   height: 60px;
 }
 
+.section-choose-button {
+  margin-top: 85px;
+  margin-left: 30px;
+  box-shadow: none;
+  color: var(--secondary-accent-color);
+}
+
+.section-choose-button:hover, .section-choose-button:focus {
+  background-color: inherit;
+  color: var(--secondary-bgc-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -168,9 +184,10 @@ img {
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -352,5 +369,36 @@ img {
   margin-top: -300px;
   width: 170px;
   height: 170px;
+}
+
+.section-choose {
+  display: flex;
+  height: 240px;
+  padding: 0;
+  background-image: url(/images/background1.png), url(/images/stars.png), url(/images/eclipses.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom, 50%, bottom;
+  background-position-x: 23%, 55%, 98%;
+}
+
+.section-choose-teachers {
+  margin-right: 80px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.section-choose-text {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 346px;
+  height: 72px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 /*# sourceMappingURL=main.css.map */

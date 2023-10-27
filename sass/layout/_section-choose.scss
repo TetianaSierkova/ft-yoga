@@ -1,0 +1,27 @@
+.section-choose {
+    display: flex;
+    height: 240px;
+    padding: 0;
+    @extend %align-items;
+    background-image: url(/images/background1.png),
+    url(/images/stars.png),
+    url(/images/eclipses.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom, 50%, bottom;
+    background-position-x: 23%, 55%, 98%;
+}
+
+.section-choose-teachers {
+    margin-right: 80px;
+    @include font(400, 80px, 1.25, 0.02em);
+    color: var(--primary-text-color);
+}
+
+.section-choose-text {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 346px; 
+    height: 72px;
+    @include font(500, 16px, 1.5, 0.02em);
+    color: var(--primary-text-color);
+}
