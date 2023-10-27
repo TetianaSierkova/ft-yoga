@@ -41,6 +41,7 @@ body {
 }
 
 .text {
+  align-items: left;
   padding: 0;
   margin: 0;
 }
@@ -196,12 +197,11 @@ img {
 
 .section-title {
   color: var(--primary-text-color);
-  margin-bottom: 30px;
   font-weight: 400;
   font-size: 80px;
   line-height: 1.25;
   letter-spacing: 0.06em;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -400,5 +400,41 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.section-courses {
+  height: 650px;
+  display: flex;
+  padding-top: 80px;
+  z-index: 0;
+  background-image: url(/images/background2.png), url(/images/heart_rate.png), url(/images/500.png);
+  background-repeat: no-repeat;
+  background-position-x: -14%, left, 20%;
+  background-position-y: 70%, 10%, 92%;
+}
+
+.section-courses-box {
+  margin-left: 50px;
+  align-items: left;
+}
+
+.section-courses-titile {
+  padding-top: 100px;
+}
+
+.section-courses-text {
+  width: 612px;
+  height: 60px;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.61;
+  letter-spacing: 0.02em;
+}
+
+.section-courses-button {
+  margin-top: 40px;
+  width: 200px;
+  height: 60px;
 }
 /*# sourceMappingURL=main.css.map */

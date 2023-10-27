@@ -10,9 +10,8 @@
 
 .section-title {
     color: var(--primary-text-color);
-    margin-bottom: 30px;
     @include font(400, 80px, 1.25, 0.06em);
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
 
     @media screen and (max-width: 1200px) {
