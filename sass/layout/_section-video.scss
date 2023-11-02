@@ -1,0 +1,40 @@
+.section-video {
+    position: relative;
+    height: 660px;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 0;
+    background-image: url(/images/couch.png),
+    url(/images/video.png),
+    url(/images/play-circle.png);
+    background-repeat: no-repeat;
+    background-position-x: 55%, right, 68.5%;
+    background-position-y: 96%, 20%, 26%;
+}
+
+.section-video-info {
+    margin-top: 30px;
+    margin-left: 0
+}
+
+.section-video-text {
+    margin-top: 50px;
+    @include font(400, 18px, 1.61, 0.02em);
+    color: var(--secondary-text-color);
+}
+
+.section-video-model3 {
+    position: absolute;
+    z-index: -1;
+    width: 560px; 
+    height: 400px;
+}
+
+.section-video-model4 {
+    position: relative;
+    margin-top: 260px;
+    margin-left: 95px;
+    z-index: -2;
+    width: 560px;
+    height: 400px;
+}

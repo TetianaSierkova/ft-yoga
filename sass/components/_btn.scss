@@ -1,6 +1,6 @@
 .button {
     border-radius: 58px;
-    border: 1px solid transparent;
+    border: 1px solid #FF62B7;
     padding: 10px 32px;
     text-align: center;
     color: var(--primary-text-color);
@@ -32,6 +32,7 @@
 .section-choose-button {
     margin-top: 85px;
     margin-left: 30px;
+    border: 1px solid transparent;
     box-shadow: none;
     color: var(--secondary-accent-color);
 
@@ -41,4 +42,16 @@
         color: var(--secondary-bgc-color);
         @include font(600, 18px, 1.61, 0.06em);
     }
+}
+
+.section-courses-button {
+    margin-top: 40px;
+    width: 200px;
+    height: 60px;
+}
+
+.section-video-button {
+    margin-top: 20px;
+    width: 238px;
+    height: 60px;
 }

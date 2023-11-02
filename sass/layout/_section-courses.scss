@@ -2,7 +2,6 @@
     height: 650px;
     display: flex;
     padding-top: 80px;
-    z-index: 0;
     background-image: url(/images/background2.png),
     url(/images/heart_rate.png),
     url(/images/500.png);
@@ -25,10 +24,4 @@
     height: 60px;
     margin-top: 40px;
     @include font(400, 18px, 1.61, 0.02em);
-}
-
-.section-courses-button {
-    margin-top: 40px;
-    width: 200px;
-    height: 60px;
 }
