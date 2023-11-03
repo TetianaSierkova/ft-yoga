@@ -1,0 +1,48 @@
+.section-insta {
+    height: 910px;
+    padding: 10px, 0, 10px, 15px;
+}
+
+.section-insta-title {
+    width: 600px; 
+    height: 300px;
+    //margin-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.insta-name {
+    color: var(--secondary-accent-color);
+}
+
+.section-insta-button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 130px;
+    margin-left: 550px;
+}
+
+.section-insta-image1 {
+    position: absolute;
+    margin-top: -600px;
+}
+
+.section-insta-image2 {
+    position: relative;
+    margin-top: -600px;
+    margin-left: 850px;
+}
+
+.section-insta-image3 {
+    position: relative;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.section-insta-image4 {
+    position: relative;
+    margin-top: -460px;
+    margin-right: 30px;
+    margin-left: 600px;
+}
