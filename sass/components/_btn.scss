@@ -57,9 +57,10 @@
 }
 
 .section-insta-button {
-    width: 120px;
     height: 120px;
-    border-radius: 50%;
-    margin-top: 130px;
+    width: 120px;
+    margin-top: 120px;
     margin-left: 550px;
+    z-index: 2;
+    position: relative;
 }
