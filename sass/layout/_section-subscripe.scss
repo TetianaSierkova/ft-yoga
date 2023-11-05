@@ -1,0 +1,64 @@
+.section-subscripe {
+    height: 460px;
+    padding: 60px, 150px, 60px, 150px;
+}
+
+.section-subscripe-box {
+    width: 962px;
+    height: 358px;
+    margin: 0 auto;
+    //padding: 60px, 150px, 60px, 150px;
+    background-image: radial-gradient(
+        circle at bottom left,
+        var(--secondary-accent-color) 20%,
+        var(--secondary-bgc-color) 80%
+    );
+    border-radius: 32px;
+}
+
+.section-subscripe-title {
+    padding-top: 60px;
+    color: var(--accent-text-color);
+    @include font(400, 48px, 1.25, 0.06em);
+    text-align: center;
+}
+
+.section-subscripe-text {
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: var(--accent-text-color);
+    @include font(400, 18px, 1.61, 0.02em);
+    text-align: center;
+    opacity: 70%;
+}
+
+.form-subscripe {
+    padding-top: 30px;
+    padding-left: 190px;
+}
+
+input {
+    width: 526px;
+    height: 70px;
+    border-radius: 58px;
+    padding-left: 25px;
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 70%;
+    text-align: unset;
+    @include font(400, 16px, 1.62);
+}
+
+.section-subscripe-button {
+    width: 162px;
+    height: 56px;
+    color: var(--accent-text-color);
+    @include font(600, 16px, 1.5, 0.02em);
+    background-image: radial-gradient(circle at bottom left,
+        var(--secondary-accent-color) 20%,
+        var(--secondary-bgc-color) 80%);
+    border-radius: 33px;
+}

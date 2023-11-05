@@ -72,7 +72,7 @@ img {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.61;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -80,7 +80,7 @@ img {
 
 .button:hover, .button:focus {
   color: var(--secondary-icon-color);
-  background-color: var(--secondary-accent-color);
+  background-image: radial-gradient(circle at bottom left, var(--secondary-accent-color) 20%, var(--secondary-bgc-color) 80%);
   font-weight: 500;
   font-size: 18px;
   line-height: 1.61;
@@ -108,12 +108,12 @@ img {
 }
 
 .section-choose-button:hover, .section-choose-button:focus {
-  background-color: inherit;
+  background-image: none;
   color: var(--secondary-bgc-color);
   font-weight: 600;
   font-size: 18px;
   line-height: 1.61;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
 }
 
 .section-courses-button {
@@ -133,7 +133,6 @@ img {
   width: 120px;
   margin-top: 120px;
   margin-left: 550px;
-  z-index: 2;
   position: relative;
 }
 
@@ -513,5 +512,75 @@ img {
   margin-top: -460px;
   margin-right: 30px;
   margin-left: 600px;
+}
+
+.section-subscripe {
+  height: 460px;
+  padding: 60px, 150px, 60px, 150px;
+}
+
+.section-subscripe-box {
+  width: 962px;
+  height: 358px;
+  margin: 0 auto;
+  background-image: radial-gradient(circle at bottom left, var(--secondary-accent-color) 20%, var(--secondary-bgc-color) 80%);
+  border-radius: 32px;
+}
+
+.section-subscripe-title {
+  padding-top: 60px;
+  color: var(--accent-text-color);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.section-subscripe-text {
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: var(--accent-text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.61;
+  letter-spacing: 0.02em;
+  text-align: center;
+  opacity: 70%;
+}
+
+.form-subscripe {
+  padding-top: 30px;
+  padding-left: 190px;
+}
+
+input {
+  width: 526px;
+  height: 70px;
+  border-radius: 58px;
+  padding-left: 25px;
+}
+
+::placeholder {
+  color: #BDBDBD;
+  opacity: 70%;
+  text-align: unset;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.section-subscripe-button {
+  width: 162px;
+  height: 56px;
+  color: var(--accent-text-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-image: radial-gradient(circle at bottom left, var(--secondary-accent-color) 20%, var(--secondary-bgc-color) 80%);
+  border-radius: 33px;
 }
 /*# sourceMappingURL=main.css.map */
