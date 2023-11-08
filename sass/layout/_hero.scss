@@ -35,7 +35,9 @@
     padding: 16px;
     color: var(--accent-text-color);
     rotate: -7.69°;
-    background-color: var(--secondary-accent-color);
+    background-image: radial-gradient(circle at bottom left,
+        var(--secondary-accent-color) 20%,
+        var(--secondary-bgc-color) 80%);
 }
 
 .hero-section-text {
