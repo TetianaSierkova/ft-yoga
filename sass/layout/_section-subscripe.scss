@@ -65,24 +65,3 @@ input {
     text-align: unset;
     @include font(400, 16px, 1.62);
 }
-
-.section-subscripe-button {
-    position: absolute;
-    //fill: var(--accent-text-color);
-    width: 162px;
-    height: 56px;
-    bottom: 7px;
-    right: 10px;
-    //stroke: var(--accent-text-color);
-    color: var(--accent-text-color);
-    @include font(600, 16px, 1.5, 0.02em);
-    background-image: radial-gradient(circle at bottom left,
-        var(--secondary-accent-color) 20%,
-        var(--secondary-bgc-color) 80%);
-    border-radius: 33px;
-    border: none;
-}
-
-.vector {
-    
-}

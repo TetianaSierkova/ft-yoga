@@ -105,7 +105,7 @@ img {
 
 .button-hero-section {
   margin-top: 20px;
-  width: 238px;
+  width: 260px;
   height: 60px;
 }
 
@@ -134,7 +134,7 @@ img {
 
 .section-video-button {
   margin-top: 20px;
-  width: 238px;
+  width: 260px;
   height: 60px;
 }
 
@@ -144,6 +144,22 @@ img {
   margin-top: 120px;
   margin-left: 550px;
   position: relative;
+}
+
+.section-subscripe-button {
+  position: absolute;
+  width: 162px;
+  height: 56px;
+  bottom: 7.5px;
+  right: 8px;
+  color: var(--accent-text-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-image: radial-gradient(circle at bottom left, var(--secondary-accent-color) 20%, var(--secondary-bgc-color) 80%);
+  border-radius: 33px;
+  border: none;
 }
 
 .container {
@@ -347,6 +363,14 @@ img {
   height: 60px;
 }
 
+.section-hero-icon {
+  padding-top: 8px;
+  width: 30px;
+  height: 22px;
+  border: 2px;
+  fill: var(--primary-text-color);
+}
+
 .hero-section-info {
   display: flex;
   margin-top: 20px;
@@ -387,7 +411,6 @@ img {
 }
 
 .section-choose {
-  display: flex;
   height: 240px;
   padding: 0;
   background-image: url(/images/background1.png), url(/images/stars.png), url(/images/eclipses.png);
@@ -415,6 +438,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.section-choose-icon {
+  width: 22px;
+  height: 22px;
+  border: 2px;
+  padding-top: 8px;
+  fill: var(--primary-icon-color);
+  text-align: center;
+}
+
+.section-choose-icon:hover {
+  fill: var(--secondary-bgc-color);
 }
 
 .section-courses {
@@ -446,6 +482,12 @@ img {
   letter-spacing: 0.02em;
 }
 
+.section-courses-icon {
+  width: 30px;
+  height: 22px;
+  padding-top: 8px;
+}
+
 .section-video {
   height: 660px;
   display: flex;
@@ -469,6 +511,13 @@ img {
   line-height: 1.61;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+.section-video-icon {
+  width: 30px;
+  height: 22px;
+  border: 2px;
+  padding-top: 8px;
 }
 
 .section-video-model3 {
@@ -501,6 +550,12 @@ img {
 
 .insta-name {
   color: var(--secondary-accent-color);
+}
+
+.section-insta-icon {
+  width: 50px;
+  height: 25px;
+  border: 2px;
 }
 
 .section-insta-image1 {
@@ -598,21 +653,5 @@ input:focus-within {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-}
-
-.section-subscripe-button {
-  position: absolute;
-  width: 162px;
-  height: 56px;
-  bottom: 7px;
-  right: 10px;
-  color: var(--accent-text-color);
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  background-image: radial-gradient(circle at bottom left, var(--secondary-accent-color) 20%, var(--secondary-bgc-color) 80%);
-  border-radius: 33px;
-  border: none;
 }
 /*# sourceMappingURL=main.css.map */
