@@ -2,6 +2,9 @@
     border-radius: 58px;
     border: 1px solid #FF62B7;
     padding: 10px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: inherit;
     text-align: center;
     color: var(--primary-text-color);
     background-color: transparent;
@@ -12,6 +15,8 @@
     &:hover,
     &:focus {
         color: var(--secondary-icon-color);
+        border: transparent;
+        box-shadow: none;
         background-image: radial-gradient(circle at bottom left,
             var(--secondary-accent-color) 20%,
             var(--secondary-bgc-color) 80%);
@@ -65,3 +70,4 @@
     margin-left: 550px;
     position: relative;
 }
+

@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   background-color: var(--primary-bgc-color);
   color: var(--primary-text-color);
@@ -66,6 +71,9 @@ img {
   border-radius: 58px;
   border: 1px solid #FF62B7;
   padding: 10px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
   text-align: center;
   color: var(--primary-text-color);
   background-color: transparent;
@@ -80,6 +88,8 @@ img {
 
 .button:hover, .button:focus {
   color: var(--secondary-icon-color);
+  border: transparent;
+  box-shadow: none;
   background-image: radial-gradient(circle at bottom left, var(--secondary-accent-color) 20%, var(--secondary-bgc-color) 80%);
   font-weight: 500;
   font-size: 18px;
@@ -550,16 +560,34 @@ img {
   opacity: 70%;
 }
 
-.form-subscripe {
+.section-subscripe-form {
+  display: flex;
   padding-top: 30px;
   padding-left: 190px;
+}
+
+.subscribe-form {
+  position: relative;
 }
 
 input {
   width: 526px;
   height: 70px;
+  position: relative;
   border-radius: 58px;
   padding-left: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.61;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  border: 0.5px solid #ffffff;
+  outline: 0;
+}
+
+input:focus-within {
+  border-bottom: 1px solid #ff001b;
+  box-shadow: 0 0 15px #ff001b;
 }
 
 ::placeholder {
@@ -573,8 +601,11 @@ input {
 }
 
 .section-subscripe-button {
+  position: absolute;
   width: 162px;
   height: 56px;
+  bottom: 7px;
+  right: 10px;
   color: var(--accent-text-color);
   font-weight: 600;
   font-size: 16px;
@@ -582,5 +613,6 @@ input {
   letter-spacing: 0.02em;
   background-image: radial-gradient(circle at bottom left, var(--secondary-accent-color) 20%, var(--secondary-bgc-color) 80%);
   border-radius: 33px;
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */

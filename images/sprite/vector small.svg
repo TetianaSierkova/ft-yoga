@@ -1,5 +1,1 @@
-<svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.5 13L30.5 13" stroke="white" stroke-width="2"/>
-<path d="M16.5 1C18.8333 5 24.9 13 30.5 13" stroke="white" stroke-width="2"/>
-<path d="M16.5 23C18.8333 19.6667 24.9 13 30.5 13" stroke="white" stroke-width="2"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="24" fill="none"><path stroke="#fff" stroke-width="2" d="M.5 13h30M16.5 1c2.333 4 8.4 12 14 12M16.5 23c2.333-3.333 8.4-10 14-10"/></svg>
