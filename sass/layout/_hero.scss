@@ -27,14 +27,13 @@
 }
 
 .info-title-yoga {
-    width: 250px; 
-    height: 150px;
-    border: 1.55px;
+    display: inline-block;
+    width: 320px; 
+    height: 170px;
     border-radius: 26px;
-    //rotate: -7.69°;
+    transform: rotate(8deg);
     padding: 16px;
     color: var(--accent-text-color);
-    rotate: -7.69°;
     background-image: radial-gradient(circle at bottom left,
         var(--secondary-accent-color) 20%,
         var(--secondary-bgc-color) 80%);

@@ -1,6 +1,6 @@
 .section-subscripe {
     height: 460px;
-    padding: 60px, 150px, 60px, 150px;
+    padding: 60px 150px;
 }
 
 .section-subscripe-box {
@@ -54,8 +54,8 @@ input {
     outline: 0;
 
     &:focus-within {
-        border-bottom: 1px solid #ff001b;
-        box-shadow: 0 0 15px #ff001b;
+        border-bottom: 1px solid #1B013D;
+        box-shadow: 0 0 15px #1B013D;
     }
 }
 
