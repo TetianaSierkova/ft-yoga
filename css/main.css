@@ -16,11 +16,6 @@
   align-items: center;
 }
 
-.social-list {
-  display: flex;
-  justify-content: center;
-}
-
 body {
   background-color: var(--primary-bgc-color);
   color: var(--primary-text-color);
@@ -242,6 +237,53 @@ img {
   letter-spacing: 0.06em;
   text-align: left;
   text-transform: uppercase;
+}
+
+.footer-social-list {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  align-items: center;
+}
+
+.footer-list-icon {
+  display: flex;
+}
+
+.social-list-item + .social-list-item {
+  margin-left: 15px;
+}
+
+.social-list-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--secondary-icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--primary-icon-color);
+}
+
+.footer-copyright {
+  margin-left: 749px;
+}
+
+.footer-paragraf,
+.footer-paragraf-item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.38;
+  letter-spacing: 0.02em;
+}
+
+.footer-paragraf {
+  color: var(--accent-text-color);
+}
+
+.footer-paragraf-item {
+  color: var(--secondary-bgc-color);
 }
 
 .header-nav {
@@ -672,7 +714,7 @@ input:focus-within {
 }
 
 .footer-info {
-  margin-right: 255px;
+  margin-right: 250px;
 }
 
 .footer-info-text {
@@ -715,7 +757,7 @@ input:focus-within {
 }
 
 .footer-schedule-box {
-  width: 157px;
+  width: 200px;
 }
 
 .footer-nav-title {
@@ -725,39 +767,5 @@ input:focus-within {
   font-size: 28px;
   line-height: 1.39;
   letter-spacing: 0.06em;
-}
-
-.footer-social-list {
-  display: flex;
-  margin: 0 auto;
-  width: 1200px;
-}
-
-.footer-list-icon {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-}
-
-.social-list-link {
-  justify-content: space-around;
-  align-items: baseline;
-}
-
-.social-list-icon {
-  width: 24px;
-  height: 24px;
-}
-
-.footer-paragraf {
-  color: var(--accent-footer-color);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.44;
-  letter-spacing: 0.02em;
-}
-
-.footer-paragraf-item {
-  color: var(--secondary-bgc-color);
 }
 /*# sourceMappingURL=main.css.map */
